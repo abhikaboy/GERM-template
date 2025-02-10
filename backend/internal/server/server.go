@@ -1,12 +1,12 @@
 package server
 
 import (
-	"github.com/abhikaboy/Roadar/internal/handlers/auth"
-	"github.com/abhikaboy/Roadar/internal/handlers/health"
-	"github.com/abhikaboy/Roadar/internal/handlers/sample"
-	"github.com/abhikaboy/Roadar/internal/handlers/socket"
-	"github.com/abhikaboy/Roadar/internal/sockets"
-	"github.com/abhikaboy/Roadar/internal/xerr"
+	"github.com/abhikaboy/GERM-template/internal/handlers/auth"
+	"github.com/abhikaboy/GERM-template/internal/handlers/health"
+	"github.com/abhikaboy/GERM-template/internal/handlers/sample"
+	"github.com/abhikaboy/GERM-template/internal/handlers/socket"
+	"github.com/abhikaboy/GERM-template/internal/sockets"
+	"github.com/abhikaboy/GERM-template/internal/xerr"
 	gojson "github.com/goccy/go-json"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/compress"

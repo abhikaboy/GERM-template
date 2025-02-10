@@ -1,7 +1,7 @@
 package auth
 
 import (
-	"github.com/abhikaboy/Roadar/internal/config"
+	"github.com/abhikaboy/GERM-template/internal/config"
 	"go.mongodb.org/mongo-driver/mongo"
 )
 

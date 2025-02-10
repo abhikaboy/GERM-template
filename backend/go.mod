@@ -1,4 +1,4 @@
-module github.com/abhikaboy/Roadar
+module github.com/abhikaboy/GERM-template
 
 go 1.23.4
 
