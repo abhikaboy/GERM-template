@@ -9,7 +9,7 @@
       ];
       shells.default = {
         enterShell = ''
-          printf "\033[0;1;36mRoadar DEVELOPMENT ENVIRONMENT\033[0m\n"
+          printf "\033[0;1;36mGERM DEVELOPMENT ENVIRONMENT\033[0m\n"
           env-help
         '';
 
@@ -28,6 +28,11 @@
           nodePackages.prettier
           bun
           git
+          go
+          python3
+          python3.pkgs.pip
+          python3.pkgs.typer
+          dos2unix
         ];
 
         scripts = {
@@ -118,8 +123,15 @@
               bun run test
             '';
          };
+         "cli-run" = {
+            description = "Runs the CLI.";
+            exec = ''
+              cd "$DEVENV_ROOT"/cli
+              python3 main.py
+            '';
         };
-      };
+    };
+  };
     };
   };
 }

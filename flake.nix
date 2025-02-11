@@ -1,5 +1,5 @@
 {
-  description = "Roadar: A crowdsourced road maintenance safety platform.";
+  description = "GERM: Go, Expo, React Native, MongoDB";
 
   inputs = {
     devenv = {
